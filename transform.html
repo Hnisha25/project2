@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .div{
+        width: 100%;
+        height: 200px;
+        border: 2px solid red;
+        font-size: 50px;
+        text-transform: uppercase;
+        font-weight: bold;
+        
+
+    }
+    #spn1{
+        animation-name: lb1;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        animation-direction: alternate-reverse;
+       
+    }
+    #spn2{
+        animation-name: lb2;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        animation-direction: alternate-reverse;
+        animation-delay: 6s;
+       
+    }
+    #spn3{
+        animation-name: lb3;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        animation-direction: alternate-reverse;
+        
+        
+    }
+    #spn4{
+        animation-name: lb4;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        animation-direction: alternate-reverse;
+        animation-delay: 6s;
+        
+    }
+    #spn5{
+        animation-name: lb5;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        animation-direction: alternate-reverse;
+        
+    }
+    #spn6{
+        animation-name: lb6;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        animation-direction: alternate-reverse;
+        animation-delay: 6s;
+        
+    }
+    @keyframes lb1 {
+        from{
+            position: absolute;
+            transform:translate(0px,0px);
+        }
+        to{
+            position: absolute;
+            transform: translate(0px,150px) scale(2);
+            color: red;
+            
+        }    
+    }
+    @keyframes lb2 {
+        from{
+            position: absolute;
+            transform:translate(50px,0px); 
+        }
+        to{
+            position: absolute;
+            transform: translate(50px,150px);
+            transform: translate(0px,150px) scale(2);
+            color: pink;
+        }    
+    }
+    @keyframes lb3 {
+        from{
+            position: absolute;
+            transform:translate(100px,0px); 
+        }
+        to{
+            position: absolute;
+            transform: translate(100px,150px);
+            transform: translate(0px,150px) scale(2);
+            color:orange;
+        }    
+    }
+    @keyframes lb4 {
+        from{
+            position: absolute;
+            transform:translate(150px,0px);
+        }
+        to{
+            position: absolute;
+            transform: translate(150px,150px);
+            transform: translate(0px,150px) scale(2);
+            color: blue;
+        }    
+    }
+    @keyframes lb5 {
+        from{
+            position: absolute;
+            transform:translate(200px,0px); 
+        }
+        to{
+            position: absolute;
+            transform: translate(200px,150px);
+            transform: translate(0px,150px) scale(2);
+            color: purple;
+
+        }    
+    }
+    @keyframes lb6 {
+        from{
+            position: absolute;
+            transform:translate(250px,0px) ;
+        }
+        to{
+            position: absolute;
+            transform: translate(250px,150px);
+            transform: translate(0px,150px) scale(2);
+            color: yellow;
+        }    
+    }
+
+
+</style>
+
+
+
+<body>
+    <div class="div">
+        <span id="spn1">h</span>
+        <span id="spn2">u</span>
+        <span id="spn3">b</span>
+        <span id="spn4">n</span>
+        <span id="spn5">e</span>
+        <span id="spn6">t</span>
+    </div>
+    
+</body>
+</html>

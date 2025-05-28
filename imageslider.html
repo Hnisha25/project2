@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .con{
+            width: 50%;
+            height: 400px;
+            /* border: 2px solid red; */
+            animation-name: islider;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            animation-direction: alternate-reverse;
+        }
+        @keyframes islider{
+            0%{
+                background-image: url(pic1\ \(2\).jpg);
+                background-position: center;
+                border-radius: 50%;
+            }
+            25%{
+                background-image: url(pic2\ \(2\).jpg);
+                background-position: center;
+            }
+
+            50%{
+                background-image: url(pic3\ \(2\).jpg);
+                background-position: center;
+            }
+            75%{
+                background-image: url(pic4\ \(2\).jpg);
+                background-position: centre;
+            }
+            100%{
+                background-image: url(pic5\ \(2\).jpg);
+                background-position: center;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="con">
+
+    </div>
+    
+</body>
+</html>
